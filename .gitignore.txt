@@ -1,0 +1,3 @@
+#Ignore Sass Folder
+
+scss
