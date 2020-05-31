@@ -429,7 +429,7 @@ nav .navbar.fixed-bg {
 }
 .portfolio ul li {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 20px;
   cursor: pointer;
   border-radius: 50px;
   padding: 5px 25px;
@@ -687,6 +687,8 @@ nav .navbar.fixed-bg {
   border-bottom: 4px solid #47b2e4;
   text-align: left;
   padding-left: 30px;
+  margin-bottom: 20px;
+  margin-right: 10px;
 }
 .contact .contact-info h4 {
   margin: 0;
@@ -725,7 +727,6 @@ nav .navbar.fixed-bg {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   border-top: 4px solid #47b2e4;
   border-bottom: 4px solid #47b2e4;
-  margin-left: 30px;
   padding: 20px;
 }
 .contact .contact-form form .form-group {
@@ -882,6 +883,7 @@ nav .navbar.fixed-bg {
 }
 .footer .footer-description p.copyright {
   text-align: left;
+  margin-bottom: 15px;
 }
 .footer .footer-description p.credit {
   text-align: right;

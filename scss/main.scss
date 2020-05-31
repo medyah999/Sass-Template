@@ -358,7 +358,7 @@ position:relative;
 		margin-bottom:30px;
 		li{
 			display:inline-block;
-			margin-right:30px;
+			margin-right:20px;
 			cursor:pointer;
 			border-radius:50px;
 			padding:5px 25px;
@@ -622,7 +622,8 @@ position:relative;
 		border-bottom:4px solid $btnColor;
 		text-align:left;
 		padding-left:30px;
-
+		margin-bottom:20px;
+		margin-right:10px;
 		h4{
 			margin:0;
 			color:$mainColor;
@@ -663,7 +664,6 @@ position:relative;
 		box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 		border-top:4px solid $btnColor;
 		border-bottom:4px solid $btnColor;
-		margin-left:30px;
 		padding:20px;
 		form{
 			.form-group{
@@ -825,6 +825,7 @@ position:relative;
 		}
 		p.copyright{
 			text-align:left;
+			margin-bottom:15px;
 		}
 		p.credit{
 			text-align:right;

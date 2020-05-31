@@ -33,3 +33,81 @@
 }
 
 }
+
+
+@media #{$lg}{
+	.col-lg-center{
+		text-align:center!important;
+	}
+}
+
+@media #{$md}{
+	.col-md-center{
+		text-align:center!important;
+	}
+}
+
+@media #{$sm}{
+	.col-sm-center{
+		text-align:center!important;
+	}
+}
+
+@media #{$xs}{
+	.col-xs-center{
+		text-align:center!important;
+	}
+}
+
+
+
+
+
+
+@media #{$lg}{
+	.col-lg-right{
+		text-align:right!important;
+	}
+}
+
+@media #{$md}{
+	.col-md-right{
+		text-align:right!important;
+	}
+}
+
+@media #{$sm}{
+	.col-sm-right{
+		text-align:right!important;
+	}
+}
+
+@media #{$xs}{
+	.col-xs-right{
+		text-align:right!important;
+	}
+}
+
+@media #{$lg}{
+	.col-lg-left{
+		text-align:left!important;
+	}
+}
+
+@media #{$md}{
+	.col-md-left{
+		text-align:left!important;
+	}
+}
+
+@media #{$sm}{
+	.col-sm-left{
+		text-align:left!important;
+	}
+}
+
+@media #{$xs}{
+	.col-xs-left{
+		text-align:left!important;
+	}
+}

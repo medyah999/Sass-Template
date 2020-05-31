@@ -208,6 +208,66 @@ body {
     width: 100%;
   }
 }
+@media (min-width:1200px) {
+  .col-lg-center {
+    text-align: center !important;
+  }
+}
+@media (min-width:992px) {
+  .col-md-center {
+    text-align: center !important;
+  }
+}
+@media (min-width:768px) {
+  .col-sm-center {
+    text-align: center !important;
+  }
+}
+@media (max-width:767px) {
+  .col-xs-center {
+    text-align: center !important;
+  }
+}
+@media (min-width:1200px) {
+  .col-lg-right {
+    text-align: right !important;
+  }
+}
+@media (min-width:992px) {
+  .col-md-right {
+    text-align: right !important;
+  }
+}
+@media (min-width:768px) {
+  .col-sm-right {
+    text-align: right !important;
+  }
+}
+@media (max-width:767px) {
+  .col-xs-right {
+    text-align: right !important;
+  }
+}
+@media (min-width:1200px) {
+  .col-lg-left {
+    text-align: left !important;
+  }
+}
+@media (min-width:992px) {
+  .col-md-left {
+    text-align: left !important;
+  }
+}
+@media (min-width:768px) {
+  .col-sm-left {
+    text-align: left !important;
+  }
+}
+@media (max-width:767px) {
+  .col-xs-left {
+    text-align: left !important;
+  }
+}
 @media (max-width:767px) {
   .container {
     max-width: 430px;
@@ -263,6 +323,10 @@ body {
 
 .mr-auto {
   margin-right: auto !important;
+}
+
+.d-block {
+  display: block !important;
 }
 
 /*# sourceMappingURL=framework.css.map */
