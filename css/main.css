@@ -36,6 +36,21 @@ button {
   color: #fff;
 }
 
+.btn-third {
+  border: 2px solid #47b2e4;
+  color: #fff;
+  transition: all 0.5s;
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 8px 25px;
+  transition: 0.5s;
+}
+.btn-third:hover {
+  background-color: #47b2e4;
+  border-color: #47b2e4;
+  color: #fff;
+}
+
 .btn-secondary {
   background-color: #47b2e4;
   color: #fff;
@@ -76,7 +91,10 @@ nav {
 }
 nav .navbar {
   display: flex;
-  padding: 25px 5px;
+  position: fixed;
+  width: 100%;
+  padding: 25px 100px;
+  z-index: 9999;
 }
 nav .navbar .nav {
   display: flex;
@@ -133,8 +151,12 @@ nav .navbar .navbar-brand {
   text-transform: uppercase;
   font-size: 26px;
 }
+nav .navbar.fixed-bg {
+  background-color: rgba(55, 81, 126, 0.8);
+}
 
 .landing-page .landing-content {
+  margin-top: 120px;
   margin-right: 25px;
   padding-right: 35px;
 }
@@ -854,6 +876,7 @@ nav .navbar .navbar-brand {
   right: 20px;
   color: #fff;
   display: none;
+  z-index: 20000;
 }
 .scroll-top i {
   width: 40px;

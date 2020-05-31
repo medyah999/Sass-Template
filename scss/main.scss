@@ -8,8 +8,11 @@ background-color:$mainColor;
 height:80vh;
 position:relative;
 .navbar{
-	display:flex;
-	padding:25px 5px;
+	display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 25px 100px;
+    z-index:9999;
 	.nav{
 		display:flex;
 		margin-top:0;
@@ -67,10 +70,15 @@ position:relative;
 		font-size:26px;
 	}
 }
+	.navbar.fixed-bg{
+		background-color:rgba($mainColor,0.8);
+	}
 }
 
 .landing-page{
+	
 	.landing-content{
+		margin-top:120px;
 		margin-right:25px;
 		padding-right:35px;
 		img{
@@ -814,6 +822,7 @@ position:relative;
 	right:20px;
 	color:#fff;
 	display:none;
+	z-index:20000;
 	i{
 		width:40px;
 		height:40px;

@@ -49,5 +49,16 @@ $(function(){
 		$("html,body").animate({scrollTop:0},1500)
 	});
 
+	$(window).scroll(function(){
+		if($(this).scrollTop() > 50)
+		{
+			$(".navbar").addClass("fixed-bg");
+		}
+		else{
+			$(".navbar").removeClass("fixed-bg");
+		}
+
+	});
+
 
 });
