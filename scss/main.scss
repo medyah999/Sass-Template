@@ -321,8 +321,10 @@ position:relative;
     padding: 120px 0px;
     background-size:cover;
     color:#fff;
+    .cta-description{
+    	margin-bottom:20px;
+    }
     button{
-    	margin-top:20px;
 		position:absolute;
     	top:50%;
     	left:50%;
@@ -487,7 +489,6 @@ position:relative;
 	padding: 60px 30px 20px;
     box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
     background: #fff;
-    height: 100%;
     border-radius: 5px;
     margin:10px 20px;
     h4{

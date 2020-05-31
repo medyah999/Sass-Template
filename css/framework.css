@@ -210,7 +210,7 @@ body {
 }
 @media (max-width:767px) {
   .container {
-    max-width: 480px;
+    max-width: 430px;
   }
 }
 .container {
