@@ -151,8 +151,20 @@ nav .navbar .navbar-brand {
   text-transform: uppercase;
   font-size: 26px;
 }
+nav .navbar .navbar-toggler {
+  cursor: pointer;
+  padding-top: 10px;
+  display: none;
+}
+nav .navbar .navbar-toggler .toggler {
+  width: 25px;
+  height: 3px;
+  display: block;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
 nav .navbar.fixed-bg {
-  background-color: rgba(55, 81, 126, 0.8);
+  background-color: #37517e;
 }
 
 .landing-page .landing-content {
@@ -889,6 +901,43 @@ nav .navbar.fixed-bg {
 }
 .scroll-top i:hover {
   background-color: #209dd8;
+}
+
+@media (max-width: 991px) {
+  nav .navbar .navbar-toggler {
+    display: block;
+    position: absolute;
+    right: 50px;
+  }
+  nav .navbar .nav {
+    display: none;
+    margin-left: 0 !important;
+    margin-top: 50px;
+    width: 100%;
+  }
+  nav .navbar .nav .nav-item {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  nav .navbar .nav .nav-item .dropdown {
+    top: 0;
+    left: 20px;
+    background-color: #37517e;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    transition: 0.5s;
+  }
+  nav .navbar .nav .nav-item .dropdown ul li a {
+    color: #fff;
+  }
+  nav .navbar .navbar-brand {
+    margin-left: -50px;
+  }
+  nav .landing-page img {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

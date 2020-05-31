@@ -60,5 +60,16 @@ $(function(){
 
 	});
 
+	$(".navbar-toggler").click(function(){
+
+		$(".nav").slideToggle();
+
+	});
+
+	$(".drop-down").click(function(){
+
+		$(this).find(".dropdown").slideToggle();
+		console.log('clicked')
+	});
 
 });
