@@ -285,6 +285,7 @@ position:relative;
 		font-weight:900;
 	}
 	.card{
+		margin-bottom:20px;
 		i{
 			font-size:28px;
 			color:$btnColor;
@@ -316,13 +317,13 @@ position:relative;
 }
 
 .cta{
-	
     background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)) 0% 0% / cover, url(../img/cta-bg.jpg) center center fixed;
     padding: 120px 0px;
     background-size:cover;
     color:#fff;
     button{
-    	position:absolute;
+    	margin-top:20px;
+		position:absolute;
     	top:50%;
     	left:50%;
     	border:2px solid #fff;
@@ -375,6 +376,7 @@ position:relative;
 	}
 	.portfolio-card{
 		margin-right:20px;
+		margin-bottom:20px;
 		position: relative;
 			&:hover .card-description{
 			opacity:1;
@@ -481,7 +483,8 @@ position:relative;
 		margin-bottom:50px;
 	}
 	.pricing-card{
-		padding: 60px 30px 20px;
+	margin-bottom:20px;
+	padding: 60px 30px 20px;
     box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
     background: #fff;
     height: 100%;

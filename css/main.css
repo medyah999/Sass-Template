@@ -355,6 +355,7 @@ nav .navbar.fixed-bg {
   font-weight: 900;
 }
 .services .card {
+  margin-bottom: 20px;
   background-color: #fff;
   padding: 50px 30px;
   padding-bottom: 25px;
@@ -391,6 +392,7 @@ nav .navbar.fixed-bg {
   color: #fff;
 }
 .cta button {
+  margin-top: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -444,6 +446,7 @@ nav .navbar.fixed-bg {
 }
 .portfolio .portfolio-card {
   margin-right: 20px;
+  margin-bottom: 20px;
   position: relative;
 }
 .portfolio .portfolio-card:hover .card-description {
@@ -549,6 +552,7 @@ nav .navbar.fixed-bg {
   margin-bottom: 50px;
 }
 .pricing .pricing-card {
+  margin-bottom: 20px;
   padding: 60px 30px 20px;
   box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
   background: #fff;

@@ -1,7 +1,11 @@
 @media #{$xs}{
 .container{
-	max-width:540px;	
+	max-width:480px;	
 }
+}
+
+.container{
+	margin:auto;
 }
 
 @media #{$sm}{
