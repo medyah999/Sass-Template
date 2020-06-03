@@ -142,7 +142,7 @@ position:relative;
 }
 
 .about-us{
-	padding:50px 0;
+	padding:$mainPadd 0;
 	h1{
 		color:$mainColor;
 		font-weight:bold;
@@ -173,7 +173,7 @@ position:relative;
 
 .faq{
 	background-color:#f3f5fa;
-	padding:50px 0;
+	padding:$mainPadd 0;
 	h1{
 		font-weight:300;
 		color:$mainColor;
@@ -225,7 +225,7 @@ position:relative;
 }
 
 .skills{
-	padding:50px 0;
+	padding:$mainPadd 0;
 	img{
 		width:90%;
 	}
@@ -263,7 +263,6 @@ position:relative;
 				margin-top:10px;
 				position:relative;
 				.progress-bar{
-					width:100%;
 					position:absolute;
 					height:100%;
 					background-color:$mainColor;
@@ -275,7 +274,7 @@ position:relative;
 
 .services{
 	background-color:#f3f5fa;
-	padding:50px 0;
+	padding:$mainPadd 0;
 	p{
 		margin-bottom:50px;
 		color:#555;
@@ -318,9 +317,9 @@ position:relative;
 
 .cta{
     background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)) 0% 0% / cover, url(../img/cta-bg.jpg) center center fixed;
-    padding: 120px 0px;
     background-size:cover;
     color:#fff;
+    padding:$mainPadd 0;
     .cta-description{
     	margin-bottom:20px;
     }
@@ -350,7 +349,7 @@ position:relative;
 }
 
 .portfolio{
-	padding:50px 0;
+	padding:$mainPadd 0;
 	p{
 		margin-bottom:30px;
 	}
@@ -418,7 +417,7 @@ position:relative;
 
 .team{
 	background-color:#f3f5fa;
-	padding:50px 0;
+	padding:$mainPadd 0;
 	h1{
 		font-weight:900;
 		color:$mainColor;
@@ -480,7 +479,7 @@ position:relative;
 }
 
 .pricing{
-	padding:50px 0;
+	padding:$mainPadd 0;
 	p{
 		margin-bottom:50px;
 	}
@@ -564,7 +563,7 @@ position:relative;
 }
 
 .question{
-	padding:50px 0;
+	padding:$mainPadd 0;
 	background-color:#f3f5fa;
 	h1{
 		color:$mainColor;
@@ -608,7 +607,7 @@ position:relative;
 }
 
 .contact{
-	padding:50px 0;
+	padding:$mainPadd 0;
 	h1{
 		color:$mainColor;
 	}
@@ -713,7 +712,7 @@ position:relative;
 }
 
 .newsletter{
-	padding: 50px 0;
+	padding:$mainPadd 0;
 	background: #f3f5fa;
 	text-align: center;
 	font-size: 15px;
@@ -754,7 +753,7 @@ position:relative;
 }
 
 .footer{
-	padding-top:50px;
+	padding:$mainPadd 0;
 	h2,h4{
 		color:$mainColor;
 		font-weight:bold;

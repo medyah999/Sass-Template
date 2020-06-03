@@ -19,11 +19,11 @@
 		<a href="index.html" class="navbar-brand">Arsha</a>
 		
 			<ul class="list-unstyled ml-auto nav">
-				<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">About</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+				<li class="nav-item" data-slide-to="Home"><a href="#" class="nav-link active">Home</a></li>
+				<li class="nav-item" data-slide-to="About"><a href="#" class="nav-link">About</a></li>
+				<li class="nav-item" data-slide-to="Services"><a href="#" class="nav-link">Services</a></li>
+				<li class="nav-item" data-slide-to="Portfolio"><a href="#" class="nav-link">Portfolio</a></li>
+				<li class="nav-item" data-slide-to="Team"><a href="#" class="nav-link">Team</a></li>
 				<li class="nav-item drop-down">
 					<a href="#" class="nav-link">Dropdown &nbsp;<i class="fas fa-chevron-down fa-xs"></i></a>
 					<div class="dropdown text-left">
@@ -36,7 +36,7 @@
 					</div>
 
 				</li>
-				<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+				<li class="nav-item" data-slide-to="Contact"><a href="#" class="nav-link">Contact</a></li>
 			</ul>
 			<!-- <button class="btn-third">Get Started</button> -->
 			<div class="navbar-toggler">
@@ -97,7 +97,7 @@
 	</div>
 
 
-<div class="about-us text-center">
+<div class="about-us text-center" id="About">
 	<h1>About Us</h1>
 	<div class="divider"></div>
 	<div class="container text-left">
@@ -159,34 +159,34 @@
 				<div class="skills-content">
 					<div class="skills-item">
 						<span>HTML</span>
-						<span>100%</span>
+						<span >100%</span>
 						<div class="clear-fix"></div>
 						<div class="progress">
-							<div class="progress-bar"></div>
+							<div class="progress-bar" data-width="100"></div>
 						</div>
 					</div>
 					<div class="skills-item">
 						<span>CSS</span>
-						<span>100%</span>
+						<span>75%</span>
 						<div class="clear-fix"></div>
 						<div class="progress">
-							<div class="progress-bar"></div>
+							<div class="progress-bar" data-width="75%"></div>
 						</div>
 					</div>
 					<div class="skills-item">
 						<span>Javascript</span>
-						<span>100%</span>
+						<span>60%</span>
 						<div class="clear-fix"></div>
 						<div class="progress">
-							<div class="progress-bar"></div>
+							<div class="progress-bar" data-width="60%"></div>
 						</div>
 					</div>
 					<div class="skills-item">
 						<span>Photoshop</span>
-						<span>100%</span>
+						<span>45%</span>
 						<div class="clear-fix"></div>
 						<div class="progress">
-							<div class="progress-bar"></div>
+							<div class="progress-bar" data-width="45%"></div>
 						</div>
 					</div>
 				</div>
@@ -195,7 +195,7 @@
 	</div>
 </div>
 
-<div class="services text-center">
+<div class="services text-center" id="Services">
 	<h1>Services</h1>
 	<div class="divider"></div>
 	<div class="container">
@@ -253,7 +253,7 @@
 		</div>
 </div>
 
-<div class="portfolio text-center">
+<div class="portfolio text-center" id="Portfolio">
 	<h1>Portfolio</h1>
 	<div class="divider"></div>
 	<div class="container">
@@ -368,7 +368,7 @@
 	</div>
 </div>
 
-<div class="team text-center">
+<div class="team text-center" id="Team">
 	<h1>Team</h1>
 	<div class="divider"></div>
 	<div class="container">
@@ -579,7 +579,7 @@
 	</div>
 </div>
 
-<div class="contact text-center">
+<div class="contact text-center" id="Contact">
 	<h1>Contact</h1>
 	<div class="divider"></div>
 	<div class="container">

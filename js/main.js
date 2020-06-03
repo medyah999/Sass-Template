@@ -1,4 +1,5 @@
 $(function(){
+
 	"use strict";
 
 	$(".navbar ul li a").click(function(e){
@@ -69,7 +70,64 @@ $(function(){
 	$(".drop-down").click(function(){
 
 		$(this).find(".dropdown").slideToggle();
-		console.log('clicked')
 	});
+
+	$(".navbar ul li").click(function(){
+
+			if( $(this).data("slide-to") === "Home" )
+				{
+					$("html,body").animate({scrollTop : 0},800)					
+				}
+				else
+				{
+					$("html,body").animate({
+
+						scrollTop : $("#" + $(this).data("slide-to")).offset().top
+
+					},800);
+				
+				}
+
+		
+	});
+
+	$(window).scroll(function(){
+
+		if($(this).scrollTop() >= ($(".skills").offset().top - 200))
+		{
+
+			$(".skills .progress .progress-bar").each(function(){
+
+				$(this).animate({
+
+					width : parseInt($(this).data("width")) + "%"
+				},1500);
+
+			});			
+
+		}
+
+	});
+
+
+
+	$(window).scroll(function(){
+
+		$(".navbar ul li").each(function(){
+			if($("#" + $(this).data("slide-to")).length > 0 )
+			{
+				if( $("#" + $(this).data("slide-to")).offset().top -100 <= $(window).scrollTop() )
+					{
+						$(this).find(".nav-link").addClass("active").parent().siblings().find('.nav-link').removeClass("active");
+					}
+			}
+			
+			
+
+		});
+
+	});
+
+
 
 });
